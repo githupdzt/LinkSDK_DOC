@@ -11,12 +11,7 @@
 2. 使用Link_SDK 的Commder.login(name,lenovoId,token..)方法即可登录到link服务器。
 
 ### 如何绑定设备？
-```
-sequenceDiagram
-A->>B: How are you?
-B->>A: Great!
-```
-
+![image](https://github.com/githupdzt/LinkSDK_DOC/blob/master/readme_img/01.png)
 
 ### 如何控制设备？
 
