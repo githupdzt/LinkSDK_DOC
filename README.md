@@ -10,10 +10,12 @@
 1. 使用Lenovoid-sdk-custom sdk 登录/注册到Lenovo服务器，登录成功后获取，lenovoid,token 等参数。
 2. 使用Link_SDK 的Commder.login(name,lenovoId,token..)方法即可登录到link服务器。
 
-### 如何绑定设备？
-![image](https://github.com/githupdzt/LinkSDK_DOC/blob/master/readme_img/01.png)
-
-### 如何控制设备？
+### 关于设备
+- 绑定设备 Commder.startAutoFindDeviceBySoftAp()
+- 拉取设备 Commder.gadgetListAll() 
+- 获取在线设备状态 Commder.gadgetListOnlineStatus（）；
+- 控制设备 Commder.gadgetControl();
+- 服务器推送监听 Commder.addListener()
 
 
 
